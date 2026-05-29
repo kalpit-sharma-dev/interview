@@ -41,7 +41,7 @@
 |-----|---------|
 | [TowerResearch/Tower_AI_Ops_Manager_Interview_Prep.md](./TowerResearch/Tower_AI_Ops_Manager_Interview_Prep.md) | AI Ops / FinOps |
 | [TowerResearch/Tower_AI_Ops_Mock_Interview.md](./TowerResearch/Tower_AI_Ops_Mock_Interview.md) | Mock scenarios |
-| [TowerResearch/Tower_AI_Ops_Deep_Dives.md](./TowerResearch/TowerResearch/Tower_AI_Ops_Deep_Dives.md) | Bedrock cost, vendors |
+| [TowerResearch/Tower_AI_Ops_Deep_Dives.md](./TowerResearch/Tower_AI_Ops_Deep_Dives.md) | Bedrock cost, vendors |
 | [TowerResearch/Tower_AI_Ops_Flashcards.md](./TowerResearch/Tower_AI_Ops_Flashcards.md) | Drill cards |
 
 ---
