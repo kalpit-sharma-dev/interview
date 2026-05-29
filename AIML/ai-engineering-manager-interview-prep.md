@@ -1,5 +1,7 @@
 # AI Engineering Manager — Senior Interview Preparation
 
+**Quick access:** [Cheat Sheet](./ai-em-interview-cheat-sheet.md) · [Mock Q&A (full answers)](./ai-em-mock-interview-qa.md)
+
 > **Target role:** AI Engineering Manager (product company)  
 > **Squad:** 8–9 AI/ML engineers · **Hands-on:** ~30–40% coding & architecture review  
 > **Stack emphasis:** Python, FastAPI, Docker/K8s, **GCP Vertex AI**, MLOps (Kubeflow-style pipelines), NLP/GenAI/agents  
@@ -605,5 +607,40 @@ async def start_run(req: AgentRunRequest, bg: BackgroundTasks):
 | [guide-to-ai-agent.md](./guide-to-ai-agent.md) | RAG, tools, APIs, testing, compliance |
 | [master-ai-agent-guide.md](./master-ai-agent-guide.md) | Architecture, LangGraph, K8s, security, IC system design |
 | **This doc** | EM leadership, Vertex/MLOps, roadmap, KPIs, behavioral |
+
+
+---
+
+## Corpus coverage — is this enough to pass?
+
+### What you have in `AIML/`
+
+| Resource | Best for |
+|----------|----------|
+| [guide-to-ai-agent.md](./guide-to-ai-agent.md) | Agent/RAG/tools/APIs/lifecycle |
+| [master-ai-agent-guide.md](./master-ai-agent-guide.md) | Production architecture, LangGraph, K8s, security |
+| [ai-engineering-manager-interview-prep.md](./ai-engineering-manager-interview-prep.md) | EM leadership, Vertex, roadmaps, behavioral |
+| [ai-em-interview-cheat-sheet.md](./ai-em-interview-cheat-sheet.md) | Last-minute review |
+| [ai-em-mock-interview-qa.md](./ai-em-mock-interview-qa.md) | Full spoken answers |
+| `TowerResearch/` | AI **Ops/FinOps** (cost, Bedrock, chargeback) — **adjacent**, not a substitute for product EM |
+
+### Realistic readiness (honest)
+
+| Role | Docs alone | Docs + mocks + your experience |
+|------|------------|--------------------------------|
+| **AI Engineering Manager** (product) | ~50–60% | **Strong** if you have 3+ yrs managing ML/AI engineers + shipped GenAI/ML |
+| **Senior architect** (AI/platform) | ~40–50% | **Strong** if you add platform ADRs, multi-team influence, deep distributed systems stories |
+| **Tower-style AI Ops Manager** | Tower folder essential | EM/agent docs help on agents; **not** enough without FinOps depth |
+
+### Gaps to fill outside markdown
+
+1. **Your STAR stories** with real names replaced, real metrics  
+2. **2–3 live system designs** timed to 45 minutes  
+3. **Company-specific** research (their product, stack, competitors)  
+4. **Architect loops:** evolutionary architecture, multi-tenancy, ADRs, API/platform strategy (see [Mock Q&A — Architect variant](./ai-em-mock-interview-qa.md#architect--senior-architect-variant--extra-questions))  
+5. Optional: 1 small hands-on refresh (FastAPI + eval fixture) if coding round expected  
+
+Reading everything without practice is rarely enough for **senior** loops; reading + mocks + experience is.
+
 
 Good luck — prepare stories, metrics, and tradeoffs, not just definitions.
