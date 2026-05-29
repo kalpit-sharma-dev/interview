@@ -2,7 +2,10 @@
 
 > A practical reference for designing, building, securing, and operating production AI agents—from first prototype to enterprise deployment.
 
-**Related:** See [Master AI Agent Guide](./master-ai-agent-guide.md) for advanced architecture, LangGraph patterns, Kubernetes deployment, and interview deep-dives.
+**Related:**
+
+- [Master AI Agent Guide](./master-ai-agent-guide.md) — advanced architecture, LangGraph, Kubernetes, security  
+- [AI Engineering Manager Interview Prep](./ai-engineering-manager-interview-prep.md) — senior EM loop (leadership, Vertex AI, MLOps, roadmaps)
 
 ---
 

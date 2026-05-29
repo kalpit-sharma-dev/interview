@@ -2,7 +2,10 @@
 
 > Production patterns for folder structure, Golang/Python stacks, LangGraph, multi-agent design, security, SaaS, Kubernetes, and system design interviews.
 
-**Related:** See [Guide to AI Agent](./guide-to-ai-agent.md) for end-to-end fundamentals, RAG, APIs, compliance, and the development lifecycle.
+**Related:**
+
+- [Guide to AI Agent](./guide-to-ai-agent.md) — fundamentals, RAG, APIs, compliance, lifecycle  
+- [AI Engineering Manager Interview Prep](./ai-engineering-manager-interview-prep.md) — senior EM interviews (people leadership, GCP Vertex, product partnership)
 
 ---
 
