@@ -406,7 +406,9 @@ For drill and rapid revision use **[kalpit-ml-dl-nlp-mlops-interview-500-qa.md](
 - Banking leadership behavioral  
 - Python/Golang/cloud for ML  
 
-**Study method:** 40 questions/day × 3 weeks = full coverage; prioritize sections matching the JD (GenAI IC → sections 3–6; EM → section 7).
+**Study method:** 5–10 questions/day; each answer has **short opener + detailed explanation + practice + pitfalls**. Read aloud until you can teach without notes. Prioritize sections for your target JD (GenAI IC → NLP/LLM/MLOps; EM → leadership + system design).
+
+**Note:** Answers are **detailed for learning** (~1–2 min read each). Customize *For your profile* with real AI Skin metrics.
 
 ## Quick links
 
