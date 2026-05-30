@@ -4,7 +4,10 @@
 
 | Doc | Purpose |
 |-----|---------|
-| [**kalpit-sharma-interview-guide.md**](./kalpit-sharma-interview-guide.md) | **Start here** — role fit, STAR stories, 6-week plan, resume positioning |
+| [**kalpit-sharma-interview-guide.md**](./kalpit-sharma-interview-guide.md)
+| [**kalpit-ml-dl-nlp-mlops-interview-500-qa.md**](./kalpit-ml-dl-nlp-mlops-interview-500-qa.md) | **783 Q&A** — ML, DL, NLP, MLOps, market trends |
+
+ | **Start here** — role fit, STAR stories, 6-week plan, resume positioning |
 | [agentic-genai-engineer-coding-practice.md](./agentic-genai-engineer-coding-practice.md) | Coding exercises + reference solutions |
 
 **Best-fit roles (see personalized guide):** AI Engineering Manager · Staff/Principal GenAI · Director/Head (BFSI AI) — **not** mid-level GenAI IC or pure DS.

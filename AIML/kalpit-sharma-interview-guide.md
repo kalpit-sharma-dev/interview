@@ -393,8 +393,23 @@ Use [ai-em-mock-interview-qa.md](./ai-em-mock-interview-qa.md) — replace gener
 
 ---
 
+
+## 17. ML / DL / NLP / MLOps — 500+ Q&A bank
+
+For drill and rapid revision use **[kalpit-ml-dl-nlp-mlops-interview-500-qa.md](./kalpit-ml-dl-nlp-mlops-interview-500-qa.md)** (**783 questions**) covering:
+
+- Machine learning fundamentals & statistics  
+- Deep learning & transformers  
+- NLP, LLMs, RAG, agents (market 2025–26)  
+- MLOps, data engineering, GCP/production  
+- Banking leadership behavioral  
+- Python/Golang/cloud for ML  
+
+**Study method:** 40 questions/day × 3 weeks = full pass; star high-frequency sections for your target JD.
+
 ## Quick links
 
+- [500+ ML/DL/NLP/MLOps Q&A](./kalpit-ml-dl-nlp-mlops-interview-500-qa.md)
 - [AIML README](./README.md)  
 - [Your coding drills](./agentic-genai-engineer-coding-practice.md)  
 - [GenAI Engineer prep](./agentic-genai-engineer-interview-prep.md)  
