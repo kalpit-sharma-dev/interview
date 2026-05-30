@@ -25,6 +25,7 @@ This is your **master playbook**. Technical depth lives in other AIML docs; this
 14. [Company Research Checklist](#15-company-research-checklist)
 15. [Day-Before & Interview-Day Checklist](#16-day-before--interview-day-checklist)
 16. [Honest Readiness Scorecard](#17-honest-readiness-scorecard)
+17. [ML/DL/NLP/MLOps Q&A Bank](#18-ml--dl--nlp--mlops--500-qa-bank)
 
 ---
 
@@ -394,7 +395,7 @@ Use [ai-em-mock-interview-qa.md](./ai-em-mock-interview-qa.md) — replace gener
 ---
 
 
-## 17. ML / DL / NLP / MLOps — 500+ Q&A bank
+## 18. ML / DL / NLP / MLOps — 500+ Q&A bank
 
 For drill and rapid revision use **[kalpit-ml-dl-nlp-mlops-interview-500-qa.md](./kalpit-ml-dl-nlp-mlops-interview-500-qa.md)** (**783 questions**) covering:
 
@@ -405,7 +406,7 @@ For drill and rapid revision use **[kalpit-ml-dl-nlp-mlops-interview-500-qa.md](
 - Banking leadership behavioral  
 - Python/Golang/cloud for ML  
 
-**Study method:** 40 questions/day × 3 weeks = full pass; star high-frequency sections for your target JD.
+**Study method:** 40 questions/day × 3 weeks = full coverage; prioritize sections matching the JD (GenAI IC → sections 3–6; EM → section 7).
 
 ## Quick links
 
