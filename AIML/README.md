@@ -38,6 +38,19 @@
 | [ai-em-interview-cheat-sheet.md](./ai-em-interview-cheat-sheet.md) | One-page EM review |
 | [ai-em-mock-interview-qa.md](./ai-em-mock-interview-qa.md) | EM mock answers |
 
+## IDFC FIRST Bank — Head, Intelligence Automation
+
+End-to-end pack for the **Head – Intelligence Automation** (enterprise decisioning platform) JD: plan, guide, study material, study guide, and **560 interview Q&A** — collated in one folder.
+
+| Doc | Purpose |
+|-----|---------|
+| [IDFC-IntelligenceAutomation/README.md](./IDFC-IntelligenceAutomation/README.md) | **Start here** — index + positioning + JD→capability map |
+| [IDFC-IntelligenceAutomation/00-End-to-End-Plan.md](./IDFC-IntelligenceAutomation/00-End-to-End-Plan.md) | JD decode, gap analysis, 30-day calendar, interview-loop map |
+| [IDFC-IntelligenceAutomation/01-End-to-End-Guide.md](./IDFC-IntelligenceAutomation/01-End-to-End-Guide.md) | Company/role, reference architecture, frameworks, 90-day plan, case studies, STAR, day-of |
+| [IDFC-IntelligenceAutomation/02-Study-Material.md](./IDFC-IntelligenceAutomation/02-Study-Material.md) | Deep study: decisioning/BRMS, EA, data/feature store, EDA, MLOps, ops/SRE, governance, RBI/DPDP, security, FinOps |
+| [IDFC-IntelligenceAutomation/03-Study-Guide.md](./IDFC-IntelligenceAutomation/03-Study-Guide.md) | Syllabus, scorecard, 200+ flashcards, 150+ glossary, diagrams, vendor landscape |
+| [IDFC-IntelligenceAutomation/04-500-Interview-Questions.md](./IDFC-IntelligenceAutomation/04-500-Interview-Questions.md) | **560 Q&A** across 13 themes |
+
 ## Tower Research — AI Operations Manager
 
 | Doc | Purpose |
@@ -57,3 +70,4 @@
 | **Agentic / GenAI IC (Staff+)** | agentic-genai-engineer-* + guide + master + coding practice |
 | **AI Engineering Manager** | ai-engineering-manager-* + guide + master |
 | **AI Ops / FinOps (Tower)** | TowerResearch/* |
+| **Head — Intelligence Automation / Decisioning (IDFC FIRST or similar bank)** | IDFC-IntelligenceAutomation/* |
