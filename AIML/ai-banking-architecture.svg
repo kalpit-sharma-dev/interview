@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1220" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1680" height="1220" fill="#f7f6f3"/>
+  <text x="40" y="40" font-size="22" font-weight="700" fill="#1c1917">AI Banking architecture</text>
+  <text x="40" y="62" font-size="13" fill="#57534e">Mobile banking, internet banking, and the public site. One diagram merged from the orchestration, agent, model, and MCP views.</text>
+
+  <!-- Channels -->
+  <g font-size="12" fill="#1c1917">
+    <rect x="40" y="86" width="150" height="52" rx="8" fill="#ede9fe" stroke="#6d28d9"/>
+    <text x="115" y="116" text-anchor="middle" font-weight="650">Keycloak</text>
+
+    <rect x="210" y="86" width="120" height="52" rx="8" fill="#fff" stroke="#44403c"/>
+    <text x="270" y="116" text-anchor="middle">Admin</text>
+
+    <rect x="430" y="86" width="150" height="52" rx="8" fill="#fff" stroke="#44403c"/>
+    <text x="505" y="108" text-anchor="middle">Mobile</text>
+    <text x="505" y="124" text-anchor="middle">Banking App</text>
+
+    <rect x="596" y="86" width="140" height="52" rx="8" fill="#fff" stroke="#44403c"/>
+    <text x="666" y="116" text-anchor="middle">Net Banking</text>
+
+    <rect x="752" y="86" width="180" height="52" rx="8" fill="#fff" stroke="#a8a29e" stroke-dasharray="4 3"/>
+    <text x="842" y="108" text-anchor="middle">Other channels</text>
+    <text x="842" y="124" text-anchor="middle" fill="#57534e">(future state)</text>
+
+    <rect x="948" y="86" width="140" height="52" rx="8" fill="#fff" stroke="#44403c"/>
+    <text x="1018" y="116" text-anchor="middle">Public website</text>
+
+    <rect x="1120" y="86" width="170" height="52" rx="8" fill="#ffedd5" stroke="#c2410c"/>
+    <text x="1205" y="108" text-anchor="middle" font-weight="650">BioCatch</text>
+    <text x="1205" y="124" text-anchor="middle">Risk manager</text>
+  </g>
+
+  <!-- Entry -->
+  <rect x="210" y="156" width="200" height="36" rx="6" fill="#fff" stroke="#44403c"/>
+  <text x="310" y="178" text-anchor="middle" font-size="11">User roles, products, other config</text>
+
+  <rect x="430" y="160" width="502" height="34" rx="6" fill="#fff" stroke="#44403c"/>
+  <text x="681" y="181" text-anchor="middle" font-size="12">Logged-in session transfer</text>
+
+  <rect x="948" y="160" width="300" height="34" rx="6" fill="#fff" stroke="#44403c"/>
+  <text x="1098" y="181" text-anchor="middle" font-size="11">Redirect to open / non-logged-in session</text>
+
+  <rect x="430" y="206" width="818" height="32" rx="6" fill="#1c1917"/>
+  <text x="839" y="227" text-anchor="middle" font-size="13" fill="#fafaf9" font-weight="650">Common SSO</text>
+
+  <rect x="430" y="250" width="818" height="40" rx="6" fill="#1c1917"/>
+  <text x="839" y="275" text-anchor="middle" font-size="14" fill="#fafaf9" font-weight="700">AI Banking Frontend</text>
+
+  <rect x="700" y="308" width="180" height="36" rx="6" fill="#fff" stroke="#44403c"/>
+  <text x="790" y="330" text-anchor="middle" font-size="13" font-weight="650">API Gateway</text>
+
+  <!-- Common services -->
+  <rect x="1360" y="150" width="280" height="150" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="1.5"/>
+  <text x="1500" y="174" text-anchor="middle" font-size="12" font-weight="700" fill="#9a3412">Common services</text>
+  <rect x="1380" y="190" width="240" height="40" rx="6" fill="#fff" stroke="#c2410c"/>
+  <text x="1500" y="214" text-anchor="middle" font-size="12">MFA Orchestrator</text>
+  <rect x="1380" y="242" width="240" height="40" rx="6" fill="#fff" stroke="#c2410c"/>
+  <text x="1500" y="266" text-anchor="middle" font-size="12">Session book-keeping</text>
+
+  <!-- Orchestration -->
+  <rect x="40" y="364" width="1280" height="168" rx="12" fill="#ecfdf3" stroke="#15803d" stroke-dasharray="7 4"/>
+  <text x="56" y="386" font-size="12" font-weight="700" fill="#166534">AI Banking orchestration layer</text>
+
+  <rect x="60" y="404" width="230" height="100" rx="8" fill="#fff" stroke="#166534"/>
+  <text x="175" y="440" text-anchor="middle" font-size="13" font-weight="650">Admin Integration</text>
+  <text x="175" y="462" text-anchor="middle" font-size="11" fill="#57534e">DB / cache</text>
+
+  <rect x="360" y="404" width="230" height="100" rx="8" fill="#fff" stroke="#166534"/>
+  <text x="475" y="440" text-anchor="middle" font-size="13" font-weight="650">Session Manager</text>
+  <text x="475" y="462" text-anchor="middle" font-size="11" fill="#57534e">DB / cache</text>
+
+  <rect x="660" y="404" width="300" height="100" rx="8" fill="#fff" stroke="#166534"/>
+  <text x="810" y="448" text-anchor="middle" font-size="13" font-weight="650">User Interaction Handler</text>
+  <text x="810" y="468" text-anchor="middle" font-size="12" fill="#57534e">Controller</text>
+
+  <rect x="1030" y="418" width="200" height="72" rx="8" fill="#fff" stroke="#166534"/>
+  <text x="1130" y="458" text-anchor="middle" font-size="13" font-weight="650">Authenticator</text>
+
+  <!-- Gen AI -->
+  <rect x="40" y="560" width="300" height="330" rx="12" fill="#ecfdf3" stroke="#15803d" stroke-dasharray="7 4"/>
+  <text x="56" y="582" font-size="11" font-weight="700" fill="#166534">New</text>
+  <text x="190" y="600" text-anchor="middle" font-size="11" fill="#166534">Gen AI as a service</text>
+  <text x="190" y="616" text-anchor="middle" font-size="10" fill="#57534e">Locked-down prompt preferred</text>
+
+  <rect x="60" y="632" width="260" height="48" rx="6" fill="#fff" stroke="#166534"/>
+  <text x="190" y="652" text-anchor="middle" font-size="12">API Gateway for</text>
+  <text x="190" y="668" text-anchor="middle" font-size="12">Gen AI as a service</text>
+
+  <rect x="60" y="696" width="260" height="44" rx="6" fill="#fff" stroke="#166534"/>
+  <text x="190" y="722" text-anchor="middle" font-size="12">Data, prompt, and orchestration</text>
+
+  <rect x="60" y="756" width="260" height="40" rx="6" fill="#fff" stroke="#166534"/>
+  <text x="190" y="780" text-anchor="middle" font-size="12">Model Hub</text>
+
+  <rect x="60" y="812" width="260" height="40" rx="6" fill="#fff" stroke="#166534"/>
+  <text x="190" y="836" text-anchor="middle" font-size="12" font-weight="650">LLM Models</text>
+
+  <!-- Agent layer -->
+  <rect x="360" y="560" width="1240" height="200" rx="12" fill="#e0f2fe" stroke="#0369a1" stroke-dasharray="7 4"/>
+  <text x="376" y="582" font-size="12" font-weight="700" fill="#0c4a6e">Agent layer</text>
+
+  <rect x="390" y="610" width="160" height="64" rx="8" fill="#fff" stroke="#0369a1"/>
+  <text x="470" y="646" text-anchor="middle" font-size="13" font-weight="650">PII Tokenizer</text>
+
+  <rect x="590" y="600" width="180" height="84" rx="8" fill="#fff" stroke="#0369a1"/>
+  <text x="680" y="632" text-anchor="middle" font-size="13" font-weight="650">Intent Analyzer</text>
+  <text x="680" y="652" text-anchor="middle" font-size="13">/ Planner</text>
+
+  <rect x="810" y="614" width="140" height="56" rx="8" fill="#0c4a6e"/>
+  <text x="880" y="646" text-anchor="middle" font-size="13" fill="#f0f9ff" font-weight="700">Executor</text>
+
+  <rect x="990" y="606" width="210" height="72" rx="8" fill="#fff" stroke="#0369a1"/>
+  <text x="1095" y="632" text-anchor="middle" font-size="12" font-weight="650">Agentic Gateway</text>
+  <text x="1095" y="652" text-anchor="middle" font-size="11" fill="#57534e">Rate limit, circuit break</text>
+
+  <rect x="1240" y="614" width="170" height="56" rx="8" fill="#fff" stroke="#0369a1"/>
+  <text x="1325" y="646" text-anchor="middle" font-size="13" font-weight="650">PII De-tokenizer</text>
+
+  <text x="980" y="740" font-size="11" fill="#0c4a6e">Tokenized request moves right. Real values are restored only after the model step, before a banking call.</text>
+
+  <!-- MCP -->
+  <rect x="980" y="790" width="200" height="36" rx="18" fill="#e0f2fe" stroke="#0369a1"/>
+  <text x="1080" y="812" text-anchor="middle" font-size="12" font-weight="650">MCP Gateway</text>
+
+  <rect x="700" y="850" width="760" height="250" rx="12" fill="#ecfdf3" stroke="#15803d" stroke-dasharray="7 4"/>
+  <text x="1080" y="874" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">MCP server layer - channel-wise MCPs</text>
+  <rect x="860" y="890" width="440" height="40" rx="6" fill="#fff" stroke="#166534"/>
+  <text x="1080" y="914" text-anchor="middle" font-size="13">Internet Banking MCP servers (FT, DC, and others)</text>
+  <text x="1080" y="982" text-anchor="middle" font-size="12" fill="#166534">Retail banking service cluster</text>
+
+  <rect x="760" y="1000" width="640" height="70" rx="28" fill="#fff" stroke="#44403c"/>
+  <ellipse cx="880" cy="1035" rx="90" ry="24" fill="#fafaf9" stroke="#44403c"/>
+  <text x="880" y="1040" text-anchor="middle" font-size="12">Account service</text>
+  <ellipse cx="1080" cy="1035" rx="100" ry="24" fill="#fafaf9" stroke="#44403c"/>
+  <text x="1080" y="1040" text-anchor="middle" font-size="12">Fund transfer service</text>
+  <ellipse cx="1280" cy="1035" rx="100" ry="24" fill="#fafaf9" stroke="#44403c"/>
+  <text x="1280" y="1040" text-anchor="middle" font-size="12">Debit card service</text>
+
+  <text x="40" y="1168" font-size="12" fill="#57534e">Reads (account, payment, fees, procedures) stay inside the step budget. Traces and fee refunds are commands a person confirms. The model never sees raw PAN, card, OTP, or MPIN.</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.2 L 10 5 L 0 8.8 z" fill="#44403c"/>
+    </marker>
+  </defs>
+
+  <!-- Arrows -->
+  <g fill="none" stroke="#44403c" stroke-width="1.4" marker-end="url(#arrow)">
+    <path d="M270 138 V156"/>
+    <path d="M310 192 V230 H175 V404"/>
+    <path d="M115 138 V404"/>
+    <path d="M160 138 V148 H1322 V400 H1130 V418"/>
+    <path d="M505 138 V160"/>
+    <path d="M666 138 V160"/>
+    <path d="M842 138 V160"/>
+    <path d="M1018 138 V160"/>
+    <path d="M681 194 V206"/>
+    <path d="M1098 194 V206"/>
+    <path d="M839 238 V250"/>
+    <path d="M1248 270 H1310 V112 H1290"/>
+    <path d="M839 290 V300 H790 V308"/>
+    <path d="M790 344 V404"/>
+    <path d="M290 454 H360"/>
+    <path d="M590 454 H660"/>
+    <path d="M960 454 H1030"/>
+    <path d="M1230 454 H1352 V210 H1380"/>
+    <path d="M475 504 V610"/>
+    <path d="M720 504 V600"/>
+    <path d="M550 642 H590"/>
+    <path d="M770 642 H810"/>
+    <path d="M950 642 H990"/>
+    <path d="M1200 642 H1240"/>
+    <path d="M1325 670 V708 H880 V670"/>
+    <path d="M880 670 V718 H320"/>
+    <path d="M320 832 H348 V684 H680"/>
+    <path d="M190 680 V696"/>
+    <path d="M190 740 V756"/>
+    <path d="M190 796 V812"/>
+    <path d="M1325 670 V760 H1080 V790"/>
+    <path d="M1080 826 V890"/>
+    <path d="M1080 930 V1000"/>
+  </g>
+</svg>
