@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1980" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="960" height="1980" fill="#ffffff"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1.4 L 9 5 L 0 8.6 Z" fill="#3d4a57"/>
+    </marker>
+    <style>
+      .b { fill:#ffffff; stroke:#3e6fb5; stroke-width:1.6; }
+      .p { fill:#ffffff; stroke:#d4537e; stroke-width:1.6; }
+      .t { fill:#1f2933; font-size:15px; font-weight:600; }
+      .s { fill:#52606d; font-size:13px; }
+      .g { fill:#1f2933; font-size:14px; font-weight:650; }
+      .lbl { fill:#52606d; font-size:12px; }
+    </style>
+  </defs>
+
+  <rect class="b" x="40" y="28" width="520" height="128" rx="8"/>
+  <text class="t" x="300" y="62" text-anchor="middle">Customer and staff channels</text>
+  <text class="s" x="300" y="90" text-anchor="middle">Mobile banking, internet banking</text>
+  <text class="s" x="300" y="112" text-anchor="middle">CRM / custom UI</text>
+
+  <rect class="p" x="600" y="28" width="320" height="128" rx="8"/>
+  <text class="t" x="760" y="78" text-anchor="middle">AI Banking</text>
+  <text class="t" x="760" y="100" text-anchor="middle">orchestrator</text>
+  <text class="s" x="760" y="128" text-anchor="middle">A2A peer</text>
+
+  <rect class="b" x="180" y="196" width="600" height="96" rx="8"/>
+  <text class="t" x="480" y="234" text-anchor="middle">CQRS frontend and API Gateway</text>
+  <text class="s" x="480" y="260" text-anchor="middle">Proposed shared banking entry point</text>
+
+  <rect class="p" x="180" y="332" width="600" height="96" rx="8"/>
+  <text class="t" x="480" y="370" text-anchor="middle">Common identity and session services</text>
+  <text class="s" x="480" y="396" text-anchor="middle">Proposed SSO, MFA and session integration</text>
+
+  <rect class="b" x="40" y="468" width="880" height="220" rx="10"/>
+  <text class="g" x="64" y="498">CQRS orchestration layer</text>
+  <rect class="p" x="64" y="522" width="400" height="132" rx="8"/>
+  <text class="t" x="264" y="570" text-anchor="middle">CQR API</text>
+  <text class="s" x="264" y="598" text-anchor="middle">Receives requests and</text>
+  <text class="s" x="264" y="620" text-anchor="middle">enforces the kill switch</text>
+  <rect class="b" x="496" y="522" width="400" height="132" rx="8"/>
+  <text class="t" x="696" y="570" text-anchor="middle">Request orchestrator</text>
+  <text class="s" x="696" y="598" text-anchor="middle">Coordinates requests,</text>
+  <text class="s" x="696" y="620" text-anchor="middle">duplicates and history</text>
+
+  <rect class="p" x="40" y="728" width="880" height="220" rx="10"/>
+  <text class="g" x="64" y="758">Agent layer</text>
+  <rect class="b" x="64" y="782" width="400" height="132" rx="8"/>
+  <text class="t" x="264" y="830" text-anchor="middle">CQRS agent</text>
+  <text class="s" x="264" y="858" text-anchor="middle">Selects tools and</text>
+  <text class="s" x="264" y="880" text-anchor="middle">coordinates execution</text>
+  <rect class="p" x="496" y="782" width="400" height="132" rx="8"/>
+  <text class="t" x="696" y="824" text-anchor="middle">Proposed safeguards</text>
+  <text class="s" x="696" y="852" text-anchor="middle">PII protection, timeouts</text>
+  <text class="s" x="696" y="874" text-anchor="middle">and execution limits</text>
+
+  <rect class="b" x="250" y="988" width="460" height="88" rx="8"/>
+  <text class="t" x="480" y="1022" text-anchor="middle">CQRS MCP Gateway</text>
+  <text class="s" x="480" y="1048" text-anchor="middle">Controlled access to tool services</text>
+
+  <rect class="p" x="40" y="1116" width="880" height="248" rx="10"/>
+  <text class="g" x="64" y="1146">CQRS tool services</text>
+  <text class="s" x="250" y="1146">selected as needed</text>
+  <rect class="b" x="64" y="1170" width="260" height="156" rx="8"/>
+  <text class="t" x="194" y="1216" text-anchor="middle">Assess the</text>
+  <text class="t" x="194" y="1238" text-anchor="middle">situation</text>
+  <text class="s" x="194" y="1270" text-anchor="middle">Decision, health,</text>
+  <text class="s" x="194" y="1292" text-anchor="middle">evidence</text>
+  <rect class="p" x="350" y="1170" width="260" height="156" rx="8"/>
+  <text class="t" x="480" y="1216" text-anchor="middle">Understand</text>
+  <text class="t" x="480" y="1238" text-anchor="middle">the request</text>
+  <text class="s" x="480" y="1270" text-anchor="middle">Intent, context,</text>
+  <text class="s" x="480" y="1292" text-anchor="middle">knowledge</text>
+  <rect class="b" x="636" y="1170" width="260" height="156" rx="8"/>
+  <text class="t" x="766" y="1216" text-anchor="middle">Guide and</text>
+  <text class="t" x="766" y="1238" text-anchor="middle">support</text>
+  <text class="s" x="766" y="1270" text-anchor="middle">Guidance, tickets</text>
+
+  <rect class="p" x="40" y="1404" width="880" height="248" rx="10"/>
+  <text class="g" x="64" y="1434">Background processing and administration</text>
+  <rect class="b" x="64" y="1458" width="260" height="160" rx="8"/>
+  <text class="t" x="194" y="1500" text-anchor="middle">Learning</text>
+  <text class="s" x="194" y="1528" text-anchor="middle">Projections, indexing</text>
+  <text class="s" x="194" y="1550" text-anchor="middle">Administration</text>
+  <text class="s" x="194" y="1572" text-anchor="middle">Notifications</text>
+  <rect class="p" x="350" y="1458" width="260" height="160" rx="8"/>
+  <text class="t" x="480" y="1510" text-anchor="middle">BigQuery</text>
+  <text class="t" x="480" y="1532" text-anchor="middle">summaries</text>
+  <text class="s" x="480" y="1564" text-anchor="middle">Projections only</text>
+  <rect class="b" x="636" y="1458" width="260" height="160" rx="8"/>
+  <text class="t" x="766" y="1504" text-anchor="middle">Bank notification</text>
+  <text class="t" x="766" y="1526" text-anchor="middle">API</text>
+  <text class="s" x="766" y="1558" text-anchor="middle">In-app messages / SMS</text>
+
+  <rect class="b" x="40" y="1748" width="210" height="168" rx="8"/>
+  <text class="t" x="145" y="1790" text-anchor="middle">Bank read APIs</text>
+  <text class="s" x="145" y="1820" text-anchor="middle">Status, profile, rules</text>
+  <text class="s" x="145" y="1842" text-anchor="middle">and hold evidence</text>
+
+  <rect class="p" x="266" y="1748" width="210" height="168" rx="8"/>
+  <text class="t" x="371" y="1782" text-anchor="middle">Gen AI services</text>
+  <text class="s" x="371" y="1808" text-anchor="middle">Model Gateway</text>
+  <text class="s" x="371" y="1830" text-anchor="middle">Controlled, filtered access</text>
+  <text class="s" x="371" y="1860" text-anchor="middle">Neev / approved models</text>
+
+  <rect class="b" x="492" y="1748" width="210" height="168" rx="8"/>
+  <text class="t" x="597" y="1782" text-anchor="middle">CRM / ServiceNow</text>
+  <text class="s" x="597" y="1812" text-anchor="middle">Ticket creation</text>
+  <text class="s" x="597" y="1834" text-anchor="middle">Approval when required</text>
+
+  <rect class="p" x="718" y="1748" width="202" height="168" rx="8"/>
+  <text class="t" x="819" y="1782" text-anchor="middle">Operational data</text>
+  <text class="s" x="819" y="1812" text-anchor="middle">Cases, knowledge</text>
+  <text class="s" x="819" y="1834" text-anchor="middle">Health, templates</text>
+
+  <text class="lbl" x="520" y="180">A2A</text>
+  <text class="lbl" x="500" y="456">Request</text>
+  <text class="lbl" x="500" y="712">When needed</text>
+  <text class="lbl" x="500" y="972">After safeguards</text>
+  <text class="lbl" x="820" y="980">Cases</text>
+  <text class="lbl" x="500" y="1388">Indexing embeddings</text>
+  <text class="lbl" x="520" y="1604">Projections read</text>
+  <text class="lbl" x="648" y="1524">Ticket status</text>
+  <text class="lbl" x="48" y="1732">Rules and evidence</text>
+  <text class="lbl" x="274" y="1732">Context and fallback</text>
+  <text class="lbl" x="508" y="1732">Ticket service only</text>
+  <text class="lbl" x="730" y="1732">Indexing writes</text>
+
+  <g fill="none" stroke="#3d4a57" stroke-width="1.3" marker-end="url(#arr)">
+    <path d="M300 156 V196"/>
+    <path d="M760 156 V176 H480 V196"/>
+    <path d="M480 292 V332"/>
+    <path d="M480 428 V468"/>
+    <path d="M464 588 H496"/>
+    <path d="M696 654 V708 H264 V782"/>
+    <path d="M896 588 H944 V1388 H860 V1404"/>
+    <path d="M464 848 H496"/>
+    <path d="M480 948 V988"/>
+    <path d="M480 1076 V1116"/>
+    <path d="M324 1248 H350"/>
+    <path d="M610 1248 H636"/>
+    <path d="M480 1364 V1404"/>
+    <path d="M324 1538 H350"/>
+    <path d="M610 1538 H636"/>
+    <path d="M145 1652 V1748"/>
+    <path d="M371 1652 V1748"/>
+    <path d="M597 1652 V1748"/>
+    <path d="M819 1652 V1748"/>
+  </g>
+</svg>
